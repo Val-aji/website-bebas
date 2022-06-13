@@ -1,0 +1,21 @@
+
+
+.ls-2 {
+   letter-spacing: 2px;
+}
+
+.f-roboto {
+   font-family: 'roboto';
+}
+
+.w-400 {
+   width: 400px;
+}
+
+.h-30 {
+   height: 30px;
+}
+
+.last {
+   padding-bottom: 60px;
+}
