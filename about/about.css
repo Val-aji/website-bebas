@@ -1,5 +1,7 @@
 
-
+* {
+    margin: 0;
+}
 .ls-2 {
    letter-spacing: 2px;
 }

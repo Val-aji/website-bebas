@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="author" content="Nouval">
+
+   <title>Produk</title>
+
+   <!-- CSS only -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+   <!-- JavaScript Bundle with Popper -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+   <!-- LINK CSS -->
+   <link rel="stylesheet" href="produk.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Average+Sans&family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  
+   <!-- start Navigasi -->
+   
+   <nav>
+      <div class="container-fluid px-4 py-3 d-flex justify-content-between bg-secondary text-white fs-4 ">
+         <span class="f-roboto ls-2 fs-1 text-info">bebass</span>
+         
+         <div class="d-flex ">
+            <ul class="nav">
+                  <a href="../index.html" class="nav-link text-white btn btn btn-link btn-primary">HOME</a>
+               </li>
+               
+               <li class="nav-item">
+                  <a href="" class="nav-link text-white btn btn-link btn-primary">PRODUCT</a>
+               </li>
+               
+        
+               <li class="nav-item">
+                  <a href="../about/about.html" class="nav-link text-white btn btn-link btn-primary ">ABOUT</a>
+               </li>
+               
+               <li class="nav-item">
+                  <a href="../account.html" class="nav-link text-white btn btn-primary btn-link">ACCOUNT</a>
+               </li>
+            </ul>
+         </div>
+         
+         
+         
+      </div>
+   </nav>
+   
+   <!-- end navigasi -->
+   
+   <!-- start header -->
+   <header>
+       <div class="container-fluid py-3 px-4 d-flex text-dark border-bottom">
+           
+           <div class="input-group container py-2 w-50 ">
+               <input type="text" placeholder=" cari produk disini ..." class="form-control" />
+               <button type="submit" class="btn btn-info btn- rounded f-roboto ">Search</button>
+           </div>
+           
+       </div>
+   </header>
+   <!-- end header -->
+   
+   <!-- start main -->
+   <main>
+       <div class="container-fluid border-bottom py-4">
+           <span class="display-4 ls-2 text-dark fw-bold f-average px-4">PRODUK
+           </span>
+           
+          
+       <!-- start fitur produk -->
+        <div class="container-fluid p-5 d-flex flex-column">
+           
+           <!-- start tombol pilihan produk -->
+            <div class="container-fluid ">
+               <div class=" d-flex container-fluid justify-content-around flex-wrap " id="menuProduk">
+                   <button type="button" class="btn f-roboto btn-info text-white  ">Kaos</button>
+                   <button type="button" class="btn f-roboto btn-info text-white">Celana</button>
+                   <button type="button" class="btn f-roboto btn-info text-white">Jaket</button>
+                   <button type="button" class="btn f-roboto btn-info text-white ">Sweater</button>
+                   <button type="button" class="btn f-roboto btn-info text-white  ">Topi</button>
+                   <button type="button" class="btn f-roboto btn-info text-white  ">Sepatu</button>
+                   <button type="button" class="btn f-roboto btn-info text-white  ">Jeans</button>
+                   <button type="button" class="btn f-roboto btn-info text-white  ">Olahraga</button>
+                   
+            
+               </div> <!-- end container  button -->
+            </div> <!-- end container fluid button -->
+    
+               
+               <!-- end tombol plihan produk -->
+               
+               <!-- start produk -->
+            <div class="d-flex justify-content-center container-fluid flex-wrap " id="produk">
+                   
+                   <!-- laptop -->
+                <div class="d-flex flex-column pembungkusProduk border-1 rounded border border-dark">
+                   <img src="imgProduk/laptopKecil.jpg" class="rounded-top" />
+                   <p class="namaProduk text-dark fw-bold f-average w-100 p-1 ls-1">
+                        Laptop Kecil</p>
+                    <p class="hargaProduk text-muted w-100 f-roboto py-1 px-2 ">Rp3.279.000</p>
+                    <p class="deskripsiProduk fw-light overflow-auto  w-100 px-2">
+                         Laptop adalah komputer pribadi yang berukuran kecil. laptop biasanya berukuran 10 - 17 inci. Laptop ini memiliki 
+                       ukuran 12 inci dan sudah memakai sistem oprasi linux. Beli laptop ini gratis mouse dan keyboard seharga Rp750.000</p>
+                       
+                    <button class="btn btn-info w-100 p-1 f-roboto ">Beli Sekarang</button>
+                </div>
+                <!-- end laptop -->
+                   
+               <!-- Kado ulang tahun -->
+               <div class="d-flex flex-column pembungkusProduk border-1 rounded border border-dark">
+                   <img src="imgProduk/kadoUlangTahun.jpg" class="rounded-top" />
+                   <p class="namaProduk text-dark fw-bold f-average w-100 p-1 ls-1">
+                       Kado ulang tahun</p>
+                    <p class="hargaProduk text-muted w-100 f-roboto py-1 px-2 ">
+                           Rp263.000</p>
+                    <p class="deskripsiProduk fw-light overflow-auto  w-100 px-2">
+                      Ulang tahun adalah hari dimana seserorang memperingati tanggal kelahirannya. biasanya temannya akan memberikan kado kepada yang ulang tahun. Kado ini cocok untuk anak anak. beli sekarang sebelum keabisan.</p>
+                       
+                   <button class="btn btn-info w-100 p-1 f-roboto ">Beli Sekarang</button>
+               </div>
+                   
+               <!-- End Kado Ultah -->
+                   
+               <!-- Hamburger -->
+               <div class="d-flex flex-column pembungkusProduk border-1 rounded border border-dark">
+                   <img src="imgProduk/hamburger.jpg" class="rounded-top" />
+                   <p class="namaProduk text-dark fw-bold f-average w-100 p-1 ls-1">
+                        Burger Large</p>
+                   <p class="hargaProduk text-muted w-100 f-roboto py-1 px-2 ">
+                       Rp48.000</p>
+                  <p class="deskripsiProduk fw-light overflow-auto  w-100 px-2">
+                        Hamburger adalah sejenis makanan berupa roti berbentuk bundar yang diiris dua dan di tengahnya diisi dengan patty yang biasanya diambil dari daging, kemudian sayur-sayuran berupa selada, tomat dan bawang bombai. Sebagai sausnya, burger diberi berbagai jenis saus seperti mayones, saus tomat dan sambal serta mustard. Beberapa varian burger juga dilengkapi dengan keju, asinan, burger juga makanan khas Amerika.</p>
+                       
+                   <button class="btn btn-info w-100 p-1 f-roboto ">Beli Sekarang</button>
+               </div>
+                <!-- end Hamburger -->
+               
+                <div class="d-flex flex-column pembungkusProduk border-1 rounded border border-dark">
+                   <img src="imgProduk/sepatuBola.jpg" class="rounded-top" />
+                   <p class="namaProduk text-dark fw-bold f-average w-100 p-1 ls-1">
+                       Sepatu Bola</p>
+                    <p class="hargaProduk text-muted w-100 f-roboto py-1 px-2 ">
+                           Rp777.000</p>
+                    <p class="deskripsiProduk fw-light overflow-auto  w-100 px-2">
+                        Sepatu bola adalah salah satu bagian penting dalam permainan sepak bola. Sebagai peranti wajib saat melakoni pertandingan, sepatu turut menunjuang performa seorang pemain dan memberikan kenyamanan ketika mengolah bola. Sepau bola ini memiliki berbagai warna dan ukuran. Ukuran sepatu 39-47 cocok untuk para remaja ataupun atlet untuk bermain bola.
+                    </p>
+                       
+                   <button class="btn btn-info w-100 p-1 f-roboto ">Beli Sekarang</button>
+               </div>
+               
+               <!-- end Sepatu Bola -->
+                
+                
+                <!-- Topi Wisuda -->
+                <div class="d-flex flex-column pembungkusProduk border-1 rounded border border-dark">
+                   <img src="imgProduk/topiWisuda.jpg" class="rounded-top" />
+                   <p class="namaProduk text-dark fw-bold f-average w-100 p-1 ls-1">
+                       Topi Wisuda S1-S3</p>
+                    <p class="hargaProduk text-muted w-100 f-roboto py-1 px-2 ">
+                           Rp1.200.000</p>
+                    <p class="deskripsiProduk fw-light overflow-auto  w-100 px-2">
+                      Kata toga berasal dari tego, yg dalam bahasa latin bermakna penutup. biarpun umumnya dikaitkan dengan bangsa romawi, toga sesungguhnya berasal dari sejenis jubah yang dikenakan oleh pribumi italia, yaitu bangsa etruskan yang hidup di italia sejak 1200 sm. kala itu, bentuk toga belum berbentuk jubah, namun sebatas kain sepanjang 6 meter yg cara menggunakannya sebatas dililitkan ke tubuh. walau tak praktis, toga adalah satu-satunya pakaian yg dianggap pantas waktu seseorang berada diluar ruangan untuk menutupi tubuh mereka.</p>
+                       
+                   <button class="btn btn-info w-100 p-1 f-roboto ">Beli Sekarang</button>
+               </div>
+               <!-- end topi wisuda -->
+            
+               
+            </div> 
+            <!-- end fitur produk -->
+            
+            
+            <!-- fitur of -->
+            
+            <div >
+                <p class="text-muted f-average text-center">
+                    1 of 3
+                </p>
+                
+            </div>
+            
+            <!-- end fitur off -->
+            
+        </div> 
+    
+        <!-- end container secondary produk-->
+    </div>
+    <!-- end container utama -->
+        
+        <!-- fitur diskon -->
+        <div class="container-fluid py-4 ">
+            <span class="px-4 display-4 f-average ls-2 text-dark fw-bold">
+                SEDANG DISKON
+            </span>
+            
+            
+            <!-- container secondary fitur diskon -->
+            <div class="p-5 d-flex justify-content-center flex-wrap flex-wrap" id="produkDiskon">
+                
+                <!-- pesawat ambifi -->
+                <div class="d-flex flex-column pembungkusProduk border-1 rounded border border-dark">
+                   <img src="imgProduk/diskon/pesawatAmbifi.jpg" class="rounded-top" />
+                   <p class="namaProduk text-dark fw-bold f-average w-100 p-1 ls-1">
+                       Pesawat Ambifi</p>
+                    <p class="hargaProduk text-muted w-100 f-roboto py-1 px-2">
+                           <span class="hargaProdukDiskon text-dark fw-light">$198.000</span>
+                           $157.000
+                    </p>
+                     
+                    <p class="deskripsiProduk fw-light overflow-auto  w-100 px-2">
+                      Sebuah pesawat amfibi atau amfibi adalah pesawat yang bisa lepas landas dan mendarat di darat dan air. Beberapa amfibi dilengkapi dengan keels bertulang yang bertindak sebagai skiis, yang memungkinkan mereka untuk mendarat di salju atau es dengan roda mereka dan yang dijuluki tri-phibians.</p>
+                       
+                   <button class="btn btn-info w-100 p-1 f-roboto ">Beli Sekarang</button>
+               </div>
+               <!-- end pesawat ambifi -->
+               
+               <!-- bola -->
+               <div class="d-flex flex-column pembungkusProduk border-1 rounded border border-dark">
+                   <img src="imgProduk/diskon/bola.jpg" class="rounded-top" />
+                   <p class="namaProduk text-dark fw-bold f-average w-100 p-1 ls-1">
+                       Bola Sepak Bola Kaki </p>
+                    <p class="hargaProduk text-muted w-100 f-roboto py-1 px-2">
+                           <span class="hargaProdukDiskon text-dark fw-light">Rp1.200.000</span>
+                           Rp760.000
+                    </p>
+                     
+                    <p class="deskripsiProduk fw-light overflow-auto  w-100 px-2">
+                      sepak bola adalah cabang olahraga yang menggunakan bola yang pada umumnya terbuat dari bahan kulit, yang disebut "bola sepak", dan dimainkan oleh dua tim yang masing-masing beranggotakan 11 (sebelas) orang pemain inti dan beberapa pemain cadangan. Memasuki abad ke-21, olahraga ini telah dimainkan oleh lebih dari 250 juta orang di 200 negara. Sepak bola bertujuan untuk mencetak gol sebanyak-banyaknya dengan memasukan bola ke gawang lawan. Sepak bola dimainkan dalam lapangan terbuka yang berbentuk persegi panjang, di atas rumput atau rumput sintetis.</p>
+                       
+                   <button class="btn btn-info w-100 p-1 f-roboto ">Beli Sekarang</button>
+               </div>
+               
+               <!-- end bola -->
+               
+               <!-- bet tenis meja -->
+               
+               
+                
+               <div class="d-flex flex-column pembungkusProduk border-1 rounded border border-dark">
+                   <img src="imgProduk/diskon/betTenisMeja.jpg" class="rounded-top" />
+                   <p class="namaProduk text-dark fw-bold f-average w-100 p-1 ls-1">
+                       Bet 1 pasang</p>
+                    <p class="hargaProduk text-muted w-100 f-roboto py-1 px-2">
+                           <span class="hargaProdukDiskon text-dark fw-light">Rp120.000</span>
+                           Rp83.000
+                    </p>
+                     
+                    <p class="deskripsiProduk fw-light overflow-auto  w-100 px-2">
+                     Bet merupakan salah satu peralatan wajib dalam permainan tenis meja. Bet adalah alat yang digunakan untuk memukul bola ping pong. bet terbuat dari bahan 85 persen kayu dengan bagian daun bet dibuat datar. Daun bet diberi lapisan perekat yang terbuat dari bahan berserat seperti serat karbon atau serat kaca.</p>
+                       
+                   <button class="btn btn-info w-100 p-1 f-roboto ">Beli Sekarang</button>
+               </div>
+               <!-- end bet tenis meja -->
+               
+               <!-- pizza -->
+               <div class="d-flex flex-column pembungkusProduk border-1 rounded border border-dark">
+                   <img src="imgProduk/diskon/pizza.jpg" class="rounded-top" />
+                   <p class="namaProduk text-dark fw-bold f-average w-100 p-1 ls-1">
+                       Pizza Medium</p>
+                    <p class="hargaProduk text-muted w-100 f-roboto py-1 px-2">
+                           <span class="hargaProdukDiskon text-dark fw-light">Rp110.000</span>
+                           Rp67.500
+                    </p>
+                     
+                    <p class="deskripsiProduk fw-light overflow-auto  w-100 px-2">
+                      Pizza asli berasal dari Italia dan bisa ditemui di Pizzeria (toko Pizza) yang tiap porsi pizzanya berdiameter kira-kira 30 cm atau lebih, dengan adonan yang telah ditarik tipis. Salah satu rahasia kelezatan Pizza Italia adalah proses pemanggangannya yang dilakukan di dalam oven tradisional dengan bara api. Hal ini dikarenakan jika dipanggang dengan oven listrik, umumnya adonan pizza tipis akan menjadi keras.</p>
+                       
+                   <button class="btn btn-info w-100 p-1 f-roboto ">Beli Sekarang</button>
+               </div>
+               <!-- end pizza -->
+               
+               <div class="d-flex flex-column pembungkusProduk border-1 rounded border border-dark">
+                   <img src="imgProduk/topiWisuda.jpg" class="rounded-top" />
+                   <p class="namaProduk text-dark fw-bold f-average w-100 p-1 ls-1">
+                       Topi Wisuda S1-S3</p>
+                    <p class="hargaProduk text-muted w-100 f-roboto py-1 px-2">
+                           <span class="hargaProdukDiskon text-dark fw-light">Rp1.200.000</span>
+                           Rp760.000
+                    </p>
+                     
+                    <p class="deskripsiProduk fw-light overflow-auto  w-100 px-2">
+                     Kata toga berasal dari tego, yg dalam bahasa latin bermakna penutup. biarpun umumnya dikaitkan dengan bangsa romawi, toga sesungguhnya berasal dari sejenis jubah yang dikenakan oleh pribumi italia, yaitu bangsa etruskan yang hidup di italia sejak 1200 sm. kala itu, bentuk toga belum berbentuk jubah, namun sebatas kain sepanjang 6 meter yg cara menggunakannya sebatas dililitkan ke tubuh. walau tak praktis, toga adalah satu-satunya pakaian yg dianggap pantas waktu seseorang berada diluar ruangan untuk menutupi tubuh mereka.</p>
+                       
+                   <button class="btn btn-info w-100 p-1 f-roboto ">Beli Sekarang</button>
+               </div>
+                
+            </div>
+            <!-- end container secondary fitur diskon -->
+        </div>
+        
+        <!-- end fitur diskon -->
+        
+        
+        
+   </main>
+   
+    <footer>
+
+       <div class="container-fluid bg-dark text-white fw-bold d-flex justify-content-center align-items-center f-roboto lead ls-2 border-top" style="height: 100px !important;">
+
+           <span>© Copyright 2022 | All right reserved Creative Indonesia by Nouval</span>
+       </div>
+   </footer>
+   
+   
+
+   
+</body>
+</html>
+

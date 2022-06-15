@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+}
+
+
+f-average {
+   font-family: 'Average-Sans', sans-serif;
+}
+
+.f-roboto {
+   font-family: 'Roboto', sans-serif;
+}
+
+.ls-1 {
+    letter-spacing: 1px;
+}
+
+.ls-2 {
+    letter-spacing: 2px;
+    
+}
+
+
+#menuProduk > button {
+    width: 20% !important;
+    margin: .5rem;
+}
+
+.pembungkusProduk {
+    width: 30% !important;
+    height: 400px !important;
+    margin: 2rem .5rem !important;
+}
+ 
+.pembungkusProduk > img {
+    width: 100% !important;
+    height: 40% !important;
+}
+
+p.namaProduk , p.hargaProduk {
+    height: 5% !important;
+
+}
+
+p.hargaProduk {
+    color: red !important;
+}
+
+
+
+p.deskripsiProduk {
+    height: 30% !important;
+    
+    
+}
+
+.pembungkusProduk > button {
+    height: 10% !important;
+}
+
+
+/* fitur diskon */
+.hargaProdukDiskon {
+    font-size: .8em !important;
+    text-decoration: line-through !important;
+}
+
+
+
+
+
+/* end fitur diskon */
+
+
