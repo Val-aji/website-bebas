@@ -1,3 +1,34 @@
+
+// INDEX.HTML 
+
+
+
+
+// END INDEX.HTML
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// FITUR LOGIN 
+
+
 function formLogin() {
     // REMOVE TOMBOL LOGIN
     let tombolLogin = document.querySelector(".tombolLogin");
@@ -65,21 +96,7 @@ function formLogin() {
     inputSubmit.value = "Login"
     
     form.appendChild(inputSubmit);
-    
-    
-    /*
-    <b className='text-center d-block fs-2 text-info f-roboto'>LOGIN</b>
-         <form>
-            <div className='form-floating my-3'>
-               <input type='text' className='form-control' id='Username' placeholder=' '>
-               <label for='Username'>Username / Email</label>
-            </div>
-            <div className='form-floating my-3'>
-               <input type='password' className='form-control' id='Password' placeholder=' '>
-               <label for='Username'>Password</label>
-            </div>
-            <input type='submit' className='btn btn-info form-control lead p-2 rounded-5 text-white fw-bold' value='LOGIN' />
-         </form>";
-    */
-    
 }
+
+// END FITUR LOGIN
+    
