@@ -46,15 +46,22 @@
 
 
 /* start account.html */
-
-.Wrapper {
-  height: 110vh;
+@media screen and (max-width: 777px) {
+    .Wrapper {
+      height: 110vh;
+    }
+    .Wrapper > button {
+        width: 75% !important;
+    }
 }
-
-.Wrapper > button {
-   width: 500px !important;
-   display: block;
-   
+@media screen and (min-width: 768px) {
+    .Wrapper {
+        height: 100vh;
+    }
+    
+    .Wrapper > button {
+        width: 500px !important
+    }
 }
 
 /* end account.html */
