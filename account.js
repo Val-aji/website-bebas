@@ -4,12 +4,22 @@ function formLogin() {
     let tombolLogin = document.querySelector(".tombolLogin");
     let parentTombolLogin = tombolLogin.parentElement;
     let tombolDaftar = tombolLogin.nextElementSibling;
-    tombolLogin.remove();
-
+    tombolLogin.classList.toggle("d-none");
+    
     // FITUR FORM LOGIN
     let login = document.createElement("div");
-    login.className = "container p-5 bg-secondary rounded-2";
+    login.className = "container p-5 bg-secondary rounded-2 position-relative";
+    
     parentTombolLogin.insertBefore(login, tombolDaftar);
+    
+    // tombol close
+    let close = document.createElement("button");
+    close.className = "btn btn-close btn-secondary position-absolute top-0 end-0";
+    login.appendChild(close);
+    close.onclick = () => {
+        login.classList.toggle("d-none");
+        tombolLogin.classList.toggle("d-none");
+    }
 
     
     function tambahElement(tag, classValue, innerValue) {
@@ -66,6 +76,7 @@ function formLogin() {
     inputSubmit.value = "Login"
     
     form.appendChild(inputSubmit);
+    
 }
 
 // END FITUR LOGIN
@@ -80,18 +91,19 @@ wrapper.className = "Wrapper container-fluid d-flex flex-column justify-content-
 
 
 let tombolLogin = document.querySelector(".tombolLogin");
-tombolLogin.className = "tombolLogin btn f-average text-white fw-bold rounded-5 p-3 fs-4 ls-2 my-2 bg-info";
+
 
 let tombolDaftar = document.querySelector(".tombolDaftar");
-tombolDaftar.className = "tombolDaftar btn f-average text-white fw-bold rounded-5 p-3 fs-4 ls-2 my-2 bg-dark";
 
 
 // Layar HP
 
 if(window.innerWidth < 768) {
-    console.info("layar HP")
+    tombolLogin.className = "tombolLogin btn f-average text-white fw-bold rounded-4 p-2 fs-4 ls-2 my-2 bg-info";
+    tombolDaftar.className = "tombolDaftar btn f-average text-white fw-bold rounded-4 p-2 fs-4 ls-2 my-2 bg-dark";
 }else {
     
-    
-    
+    tombolLogin.className = "tombolLogin btn f-average text-white fw-bold rounded-5 p-3 fs-4 ls-2 my-2 bg-info";
+    tombolDaftar.className = "tombolDaftar btn f-average text-white fw-bold rounded-5 p-3 fs-4 ls-2 my-2 bg-dark";
+
 }
