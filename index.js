@@ -6,9 +6,9 @@ bgOpacityWeb.className = "bgOpacityWeb d-flex flex-column justify-content-evenly
 
 
 let judul = document.querySelector(".judul");
-
+ judul.className = "judul d-flex flex-column align-items-center justify-content-center";
 if(window.innerWidth < 768) {
-    judul.className = "judul d-flex flex-column align-items-center justify-content-center";
+   
     
     judul.children[0].className = "display-4 f-roboto ls-2 text-white ";
     judul.children[1].remove();
