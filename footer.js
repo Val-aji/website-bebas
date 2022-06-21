@@ -11,7 +11,7 @@ else {
     footer.firstElementChild.innerHTML += "Creative Indonesia by Nouval";
    
     footer.className="container-fluid bg-dark text-white fw-bold d-flex justify-content-center align-items-center f-roboto lead ls-2 border-top footer py-4";
-    
+    footer.style.height = "100px";
     
 }
 
