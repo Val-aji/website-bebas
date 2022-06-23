@@ -21,25 +21,33 @@ f-average {
 }
 
 
-#menuProduk > button {
-    width: 20% !important;
-    margin: .5rem;
+
+@media screen and (max-width: 767px) {
+
+.cardProduk {
+  
+    width: 44% !important;
+    height: 400px !important;
+    margin: .5rem !important; 
+    }
 }
 
-.pembungkusProduk {
-    width: 30% !important;
-    height: 400px !important;
-    margin: 2rem .5rem !important;
+@media screen and (min-width: 768px) {
+    .cardProduk {
+        width: 30% !important;
+        height: 400px !important;
+        margin: 2rem .5rem !important; 
+    }
 }
  
-.pembungkusProduk > img {
+.cardProduk > img {
     width: 100% !important;
     height: 40% !important;
 }
 
 p.namaProduk , p.hargaProduk {
     height: 5% !important;
-
+    
 }
 
 p.hargaProduk {
@@ -62,7 +70,6 @@ p.deskripsiProduk {
 /* fitur diskon */
 .hargaProdukDiskon {
     font-size: .8em !important;
-    text-decoration: line-through !important;
 }
 
 
